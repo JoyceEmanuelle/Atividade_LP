@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title> Exercicio 30 (for) </title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n1, n2;
+
+		n1 = parseInt(prompt("Digite um número"));
+		n2 = parseInt(prompt("Digite um número novamente"));
+
+		if(n1<n2){
+		for (var cont=n1; cont<=n2; cont++){
+
+			if(cont%2!=0){
+			document.write(cont+"<br>");
+				}
+			}
+		}
+
+		else if(n2<n1){
+			for (var cont=n1; cont>=n2; cont--){
+
+			if(cont%2!=0){	
+			document.write(cont+"<br>");
+				}
+			}
+		}
+
+		else{
+			alert("Números iguais");
+		}
+	</script>
+
+</body>
+</html>
