@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title> Exercicio 30 (do...while) </title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n1, n2;
+
+		n1 = parseInt(prompt("Digite um número"));
+		n2 = parseInt(prompt("Digite um número novamente"));
+
+		if(n1<n2){
+			do{
+				if(n1%2!=0){
+				document.write(n1+"<br>");
+				}
+			n1++
+			}
+			while(n1<n2);
+		}
+
+		else if(n2<n1){
+
+			do{
+				if(n1%2!=0){
+				document.write(n1+"<br>");
+			}
+			n1--
+		}
+		while(n2<n1);
+	}
+		else{
+			alert("Números iguais");
+		}
+	</script>
+
+</body>
+</html>
